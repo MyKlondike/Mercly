@@ -1,14 +1,17 @@
-# Сколько ETH бриджить в Scroll:
+# От куда  отправляем ETH в Scroll:
+source = "base" # 'optimism' / 'base'
 
-amount_from = 0.01
-amount_to = 0.02
+# Сколько ETH отправляем в Scroll:
 
-# MAX_GWEI в ETH и Base:
+amount_from = 0.00045
+amount_to = 0.00046
 
-MAX_GWEI = 40
+# MAX Gwei в сети:
+
+MAX_GWEI = 30
 Base_GWEI = 0.2
 
-# Задержка между кошельками:
+# Перекур между кошельками:
 
-delay_from = 1
-delay_to = 1000
+delay_from = 600
+delay_to = 150000
