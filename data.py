@@ -1,0 +1,62 @@
+# меняем рпс на свои
+DATA = {
+    'ethereum': {'rpc': 'wss://ethereum.publicnode.com', 'scan': 'https://etherscan.io/tx', 'token': 'ETH',
+                 'chain_id': 1},
+
+    'optimism': {'rpc': 'https://rpc.optimism.gateway.fm', 'scan': 'https://optimistic.etherscan.io/tx', 'token': 'ETH',
+                 'chain_id': 10},
+
+    'bsc': {'rpc': 'https://bsc-dataseed2.bnbchain.org', 'scan': 'https://bscscan.com/tx', 'token': 'BNB',
+            'chain_id': 56},
+
+    'polygon': {'rpc': 'https://polygon.llamarpc.com', 'scan': 'https://polygonscan.com/tx', 'token': 'MATIC',
+                'chain_id': 137},
+
+    'polygon_zkevm': {'rpc': 'https://zkevm-rpc.com', 'scan': 'https://zkevm.polygonscan.com/tx', 'token': 'ETH',
+                      'chain_id': 1101},
+
+    'arbitrum': {'rpc': 'https://arb-mainnet.g.alchemy.com/v2/0639304mNmkD1bYuTB6YlvJk9TCiU3LA',
+                 'scan': 'https://arbiscan.io/tx', 'token': 'ETH', 'chain_id': 42161},
+
+    'avalanche': {'rpc': 'https://avalanche-c-chain.publicnode.com', 'scan': 'https://snowtrace.io/tx', 'token': 'AVAX',
+                  'chain_id': 43114},
+
+    'fantom': {'rpc': 'https://rpc.ftm.tools', 'scan': 'https://ftmscan.com/tx', 'token': 'FTM', 'chain_id': 250},
+
+    'nova': {'rpc': 'https://nova.arbitrum.io/rpc', 'scan': 'https://nova.arbiscan.io/tx', 'token': 'ETH',
+             'chain_id': 42170},
+
+    'zksync': {'rpc': 'https://mainnet.era.zksync.io', 'scan': 'https://explorer.zksync.io/tx', 'token': 'ETH', 'chain_id': 324},
+
+    'celo': {'rpc': 'https://1rpc.io/celo', 'scan': 'https://celoscan.io/tx', 'token': 'CELO', 'chain_id': 42220},
+
+    'gnosis': {'rpc': 'https://rpc.ankr.com/gnosis', 'scan': 'https://gnosisscan.io/tx', 'token': 'xDAI',
+               'chain_id': 100},
+
+    'core': {'rpc': 'https://rpc.coredao.org', 'scan': 'https://scan.coredao.org/tx', 'token': 'CORE',
+             'chain_id': 1116},
+
+    'harmony': {'rpc': 'https://api.harmony.one', 'scan': 'https://explorer.harmony.one/tx', 'token': 'ONE',
+                'chain_id': 1666600000},
+
+    'moonbeam': {'rpc': 'https://rpc.ankr.com/moonbeam', 'scan': 'https://moonscan.io/tx', 'token': 'GLMR',
+                 'chain_id': 1284},
+
+    'moonriver': {'rpc': 'https://moonriver.public.blastapi.io', 'scan': 'https://moonriver.moonscan.io/tx',
+                  'token': 'MOVR', 'chain_id': 1285},
+
+    'linea': {'rpc': 'https://rpc.linea.build', 'scan': 'https://lineascan.build/tx', 'token': 'ETH',
+              'chain_id': 59144},
+
+    'base': {'rpc': 'https://mainnet.base.org', 'scan': 'https://basescan.org/tx', 'token': 'ETH', 'chain_id': 8453},
+
+    'zora': {'rpc': 'https://rpc.zora.energy', 'scan': 'https://explorer.zora.energy/tx', 'token': 'ETH',
+             'chain_id': 7777777},
+
+    'klaytn': {'rpc': 'https://open-platform.nodereal.io/4585ad55d874415c840b3af281dde1a2/klaytn/',
+               'scan': 'https://scope.klaytn.com/tx/', 'token': 'klaytn', 'chain_id': 8217},
+
+    'scroll': {'rpc': 'https://rpc.scroll.io', 'scan': 'https://scrollscan.com/tx', 'token': 'ETH',
+             'chain_id': 534352},
+
+}
