@@ -1,6 +1,6 @@
 # Mercly
 
-Пересылает ETH используя Merkly Refuel из Base в Scroll
+Пересылает ETH используя Merkly Refuel в Scroll
 
 ## Оглавление
 1. [Требования](#требования)
