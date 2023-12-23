@@ -1,5 +1,5 @@
 # От куда  отправляем ETH в Scroll:
-source = "base" # 'optimism' / 'base'
+source = "optimism" # 'optimism' / 'base' / zksync
 
 # Сколько ETH отправляем в Scroll:
 
