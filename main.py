@@ -12,7 +12,7 @@ from contract import refuel
 from abi import abi
 from data import DATA
 
-amount = int(Decimal(random.uniform(amount_from, amount_to)) * Decimal("1e18"))
+amount = int(Decimal((random.uniform(amount_from, amount_to)) - 0.0005) * Decimal("1e18"))
 chain_from = source
 w3 = Web3(Web3.HTTPProvider(DATA[chain_from]['rpc']))
 contract = w3.eth.contract(address = Web3.to_checksum_address(refuel[chain_from]), abi = abi)
